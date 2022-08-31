@@ -11,31 +11,31 @@
         <meta content="NFT Marketplace Demo Website" name="description" />
         <meta content="NFT, Marketplace, Solana, Ethereum" name="keywords" />
         <meta content="Nate V2" name="author" />
+        <!--We import our default CSS file here-->
         <link rel="stylesheet" href="./css/styles.css" />
+        <!--We import Bootstrap CSS locally for faster page loading-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
     </head>
     <body>
         <div id="wrapper">
            <!--Beginning of Header Section-->
-           <header>
-            <div>
-                <div>
-                    <div>
-                        <div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <div>
-                                            <div class="flex-column">
-                                                <!--Begin Logo section-->
-                                                <div id="logo">
-                                                    <a href="https://natev2.github.io/html-nft-marketplace/">
-                                                        <img src="./img/logos/logo.png" alt="nft-logo" />
-                                                    </a>
-                                                </div>
-                                                <!--End Logo Section-->
-                                            </div>
-                                        </div>
+           <header class="transparent header-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="my-flex sm-pt10">
+                            <div class="my-flex-col">
+                                <div class="my-flex-col">
+                                    <!--Begin Logo section-->
+                                    <div id="logo">
+                                        <a href="https://natev2.github.io/html-nft-marketplace/">
+                                            <img src="./img/logos/logo.png" alt="nft-logo" />
+                                        </a>
                                     </div>
+                                    <!--End Logo Section-->
+                                </div>
+                                <div class="my-flex-col">
+                                <input id="quick-search" class="xs-hide" name="quick_search" placeholder="Search" type="text" />
                                 </div>
                             </div>
                         </div>

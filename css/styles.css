@@ -29,8 +29,33 @@ header {
     z-index: 1001;
 }
 
-.flex-column {
+header .container {
+    min-width: 100%;
+}
+
+header.header-light {
+    background: #ffffff;
+}
+
+header.transparent {
+    background: none;
+}
+
+.my-flex-col {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.my-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm-pt10 {
+    padding-top: 10px;
+}
+
+.xs-hide {
+    display: none;
 }
