@@ -41,6 +41,14 @@ header.transparent {
     background: none;
 }
 
+header div#logo {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
 .my-flex-col {
     display: flex;
     align-items: center;
@@ -58,4 +66,20 @@ header.transparent {
 
 .xs-hide {
     display: none;
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+#quick_search {
+    margin-left: 30px;
+    padding: 4px 11px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, .1);
+    width: 120%;
+    font-family: var(--title-font);
+    outline: none;
 }
