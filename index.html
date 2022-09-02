@@ -11,34 +11,43 @@
         <meta content="NFT Marketplace Demo Website" name="description" />
         <meta content="NFT, Marketplace, Solana, Ethereum" name="keywords" />
         <meta content="Nate V2" name="author" />
-        <!--We import our default CSS file here-->
-        <link rel="stylesheet" href="css/styles.css" type="text//>
         <!--We import Bootstrap CSS locally for faster page loading-->
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/stylesheet" />
+        <!--We import our default CSS files here. I created multiple CSS files to avoid having a very long styles.css file-->
+        <link rel="stylesheet" href="css/body.css" type="text/stylesheet" />
+        <link rel="stylesheet" href="css/header.css" type="text/stylesheet" />
         <!--Here i imported some random css template i found on the web for some retro feel-->
         <link rel="stylesheet" href="css/de-retro.css" />
     </head>
     <body class="de-retro">
         <div id="wrapper">
            <!--Beginning of Header Section-->
-           <header class="transparent header-light">
+           <header class="transparent header-light scroll-light">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="my-flex sm-pt10">
                             <div class="my-flex-col">
                                 <div class="my-flex-col">
-                                    <!--Begin Logo section-->
+                                    <!--Beginning of Logo section-->
                                     <div id="logo">
-                                        <a href="https://natev2.github.io/html-nft-marketplace/">
-                                            <img src="./img/logos/logo.png" alt="nft-logo" />
+                                        <a href="https://natev2.github.io/html-nft-marketplace">
+                                            <img src="./img/logos/logo.png" alt="" width="64px" height="64px"/>
                                         </a>
                                     </div>
-                                    <!--End Logo Section-->
+                                    <!--End of Logo Section-->
                                 </div>
                                 <div class="my-flex-col">
-                                <input id="quick-search" class="xs-hide" name="quick_search" placeholder="Search" type="text" />
+                                    <input id="quick_search" class="xs-hide" name="quick_search" placeholder="Search" type="text" />
                                 </div>
+                            </div>
+                            <div class="my-flex-col header-col-mid">
+                                <!--Beginning of menu section-->
+                                <ul id="mainmenu">
+                                    <li>
+                                        <a href="index.html">Home<span></span></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

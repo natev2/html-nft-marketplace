@@ -1,0 +1,88 @@
+/* ======================================= */
+
+/* Preset CSS Template */
+
+/* ======================================= */
+
+* {
+    --body-font: "Quicksand", sans-serif;
+    --title-font: "Quicksand", sans-serif;
+    --dark-scheme-color: #040836;
+    --dark-scheme-color-2: #0d1250;
+    --dark-scheme-font-color: #999999;
+}
+
+/* =========================================== */
+
+/* CSS Styles for Body section */
+
+/* =========================================== */
+
+html {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 30px;
+    padding: 0;
+    line-height: 26px;
+    word-spacing: 0px;
+}
+
+.dark-scheme {
+    color: var(--dark-scheme-font-color);
+}
+
+body.dark-scheme {
+    background: var(--dark-scheme-color);
+}
+
+body.boxed {
+    margin: 30px;
+    overflow: hidden;
+    border: solid 1px #eee;
+}
+
+body .owl-stage .owl-item {
+    margin-bottom: 15px;
+
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+.de-navbar-left #wrapper {
+    overflow: visible;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a.a-underline {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+a.a-underline span {
+    display: block;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    border-bottom: solid 1px #333;
+    width: 0;
+}
+
+a.a-underline:hover span {
+    width: 100%;
+}
